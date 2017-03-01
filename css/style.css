@@ -1,5 +1,10 @@
-body, h1, h2, h3, h4, p {
-    font-family: 'Lato', sans-serif !important ;
+body, 
+h1, 
+h2, 
+h3, 
+h4, 
+p {
+    font-family: "Lato", sans-serif !important ;
     color: #000;
     font-weight: 300;
 }

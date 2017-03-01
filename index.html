@@ -6,6 +6,7 @@
         <title>
             Keegan Whitla Portfolio
         </title>
+        
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="author" content="Keegan Whitla" />
         <meta name="robots" content="index,follow" />
@@ -15,12 +16,16 @@
         <meta property="og:title" content="Independent UI/UX portfolio" />
         <meta property="og:description" content="Keegan Whitla is an independent UI/UX developer, specializing in web design" />
         <meta property="og:url" content="http://keeganwhitla.com/">
+        
         <link rel="icon" type="image/png" href="assets/img/k-favicon.png">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet" type="text/css">
+        
     </head>
+    
     <body class="container">
+        
         <header class="row">
             <div class="col-md-6">
                 <img src="assets/img/k-favicon.png" class="title-logo img-responsive" alt="logo">
@@ -33,71 +38,71 @@
                     Independent UI/UX developer
                 </h3>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <hr/>
-                </div>
+            <div class="col-md-12">
+                <hr/>
             </div>
         </header>
-        <div class="row">
+        
+        <section id="hero-leadspace" class="row">
             <div class="col-md-12">
                 <img src="assets/img/midwest-city.jpg"  class="img-responsive" alt="hero image of a midwestern city on a cloudy day">
             </div>
-        </div>
-        <section id="featured-work">
+        </section>
+        
+        <main id="featured-work">
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="text-muted">
                         Featured Work
                     </h2>
                 </div>
+                <article class="col-md-4" data-toggle="modal" data-target="#myFeaturedWork">
+                    <img src="assets/img/project-1.png" data-toggle="modal" data-target="#project1" class="img-responsive" alt="Braedenwhitla illustration website image">
+                    <h3>
+                        BraedenWhitla.com
+                    </h3>
+                    <h4  class="inline">
+                        Artist portfolio  | 
+                    </h4>
+                    <p class="inline">
+                        <a href="#project1">
+                            Learn more
+                        </a>
+                    </p>
+                </article>
+                <article class="col-md-4" data-toggle="modal" data-target="#myFeaturedWork2">
+                    <img src="assets/img/project-2.png" class="img-responsive" alt="Beer Exchange App website image">
+                    <h3 class="hidden-lg">
+                        Beer Exchange 
+                    </h3>
+                    <h4 class="inline">
+                        App Concept | 
+                    </h4>
+                    <p class="inline">
+                        <a href="">
+                            Learn more
+                        </a>
+                   </p>
+                </article>
+                <article class="col-md-4 " data-toggle="modal" data-target="#myFeaturedWork3">
+                    <img src="assets/img/project-3.png" class="img-responsive" alt="portfoio image">
+                    <h3>
+                        Lake Tahoe 
+                    </h3>
+                    <h4  class="inline">
+                        Website design  | 
+                    </h4>
+                    <p  class="inline">
+                        <a href="http://keeganwhitla.com/laketahoe" target="_blank">
+                           Learn more
+                        </a>
+                    </p>
+                </article>
             </div>
-                <div class="row">
-                    <article class="col-md-4" data-toggle="modal" data-target="#myFeaturedWork">
-                        <img src="assets/img/project-1.png" data-toggle="modal" data-target="#project1" class="img-responsive" alt="Braedenwhitla illustration website image">
-                        <h3>
-                            BraedenWhitla.com
-                        </h3>
-                        <h4  class="inline">
-                            Artist portfolio  | 
-                        </h4>
-                        <p class="inline">
-                            <a href="#project1">
-                                Learn more
-                            </a>
-                        </p>
-                    </article>
-                    <article class="col-md-4" data-toggle="modal" data-target="#myFeaturedWork2">
-                        <img src="assets/img/project-2.png" class="img-responsive" alt="Beer Exchange App website image">
-                        <h3 class="hidden-lg">
-                            Beer Exchange 
-                        </h3>
-                        <h4 class="inline">
-                            App Concept | 
-                        </h4>
-                        <p class="inline">
-                            <a href="">
-                                Learn more
-                            </a>
-                       </p>
-                    </article>
-                    <article class="col-md-4 " data-toggle="modal" data-target="#myFeaturedWork3">
-                        <img src="assets/img/project-3.png" class="img-responsive" alt="portfoio image">
-                        <h3>
-                            Lake Tahoe 
-                        </h3>
-                        <h4  class="inline">
-                            Website design  | 
-                        </h4>
-                        <p  class="inline">
-                            <a href="http://keeganwhitla.com/laketahoe">
-                               Learn more
-                            </a>
-                        </p>
-                    </article>
-                </div>
-        </section>
+        </main>
+        
         <!-- Modal -->
+        
         <div class="modal fade" id="myFeaturedWork" tabindex="-1" role="dialog" aria-labelledby="featured-work-1">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -112,7 +117,7 @@
                   <p class="padding-top-20">
                       An artist's portfolio must shine, and this website was built to do just that, stay lightweight, show quality images, and share contact information.
                   </p>
-                  <a href="http://braedenwhitla.com">
+                  <a href="http://braedenwhitla.com" target="_blank">
                       View the site
                   </a>
                 </div>
@@ -157,7 +162,7 @@
                   <p class="padding-top-20">
                       A templated design to showcase lake tahoe
                   </p>
-                  <a href="http://keeganwhitla.com/laketahoe">
+                  <a href="http://keeganwhitla.com/laketahoe" target="_blank">
                       View the site
                   </a>
                 </div>
@@ -166,7 +171,8 @@
               </div>
             </div>
           </div>
-</div>
+        </div>
+        
         <footer class="footer">
             <div class="container">
                 <p class="text-muted">
@@ -174,7 +180,8 @@
                 </p>
             </div>
         </footer>
-        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
